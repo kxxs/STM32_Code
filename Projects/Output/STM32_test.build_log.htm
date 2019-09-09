@@ -1,0 +1,173 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.14.0.0
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: MINGXUAN LI, TSINGHUA UNIVERSITY, LIC=8MZ2Z-JNMAF-EX9UX-HEQ3D-YJSC1-HJ6PV
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.14.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 update 1 (build 106)
+Assembler:       Armasm.exe V5.05 update 1 (build 106)
+Linker/Locator:  ArmLink.exe V5.05 update 1 (build 106)
+Library Manager: ArmAr.exe V5.05 update 1 (build 106)
+Hex Converter:   FromElf.exe V5.05 update 1 (build 106)
+CPU DLL:         SARMCM3.DLL V5.14.0.0
+Dialog DLL:      DCM.DLL V1.13.1.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.14.0_KEIL
+Dialog DLL:      TCM.DLL V1.14.4.0
+ 
+<h2>Project:</h2>
+C:\Users\kxxs\Desktop\小车\STM32_test\Projects\STM32_test.uvprojx
+Project File Date:  12/01/2018
+
+<h2>Output:</h2>
+Build target 'STM32_test'
+compiling main.c...
+..\User\main.h(143): warning:  #1-D: last line of file ends without a newline
+  */
+..\User\main.c(61): warning:  #223-D: function "abs" declared implicitly
+        return abs(x1-x2) + abs(y1-y2);
+..\User\main.c(85): warning:  #223-D: function "abs" declared implicitly
+                        dis = abs(dis_x)+ abs(dis_y);
+..\User\main.c(110): warning:  #111-D: statement is unreachable
+        return '$';
+..\User\main.c(115): warning:  #1293-D: assignment in condition
+        while((t=set[i++])){
+..\User\main.c(388): warning:  #177-D: variable "counter" was declared but never referenced
+        int flag=0,i,counter=0,counter_p=0;
+..\User\main.c(389): warning:  #550-D: variable "langle" was set but never used
+        float langle=Angle,t;
+..\User\main.c(389): warning:  #177-D: variable "t" was declared but never referenced
+        float langle=Angle,t;
+..\User\main.c(439): warning:  #177-D: variable "counter" was declared but never referenced
+        int flag=0,i,counter=0,counter_p=0;
+..\User\main.c(440): warning:  #550-D: variable "langle" was set but never used
+        float langle=Angle,t;
+..\User\main.c(440): warning:  #177-D: variable "t" was declared but never referenced
+        float langle=Angle,t;
+..\User\main.c(499): warning:  #177-D: variable "counter" was declared but never referenced
+        int flag=0,i,counter=0,counter_p=0;
+..\User\main.c(500): warning:  #177-D: variable "langle" was declared but never referenced
+        float langle=Angle,t;
+..\User\main.c(500): warning:  #177-D: variable "t" was declared but never referenced
+        float langle=Angle,t;
+..\User\main.c(672): warning:  #177-D: variable "j" was declared but never referenced
+        int i,j;
+..\User\main.c: 15 warnings, 0 errors
+compiling PWM.c...
+..\User\PWM.c(347): warning:  #223-D: function "abs" declared implicitly
+                left_Pid(left_freq,abs(left_target));
+..\User\PWM.c(416): warning:  #1-D: last line of file ends without a newline
+  } 
+..\User\PWM.c: 2 warnings, 0 errors
+linking...
+Program Size: Code=22640 RO-data=448 RW-data=1832 ZI-data=2208  
+FromELF: creating hex file...
+".\Output\STM32_test.axf" - 0 Error(s), 17 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.0.1.pack
+                ::CMSIS Driver:I2C:2.3.0 (API)
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: I2C Version: 2.3.0
+   * Component: CORE Version: 5.0.1
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F1xx_DFP.2.2.0.pack
+                Keil::Device:StdPeriph Drivers:RCC:3.5.0
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+   * Component: RCC Version: 3.5.0
+   * Component: I2C Version: 3.5.0
+   * Component: USART Version: 3.5.0
+   * Component: GPIO Version: 1.3
+   * Component: GPIO Version: 3.5.0
+   * Component: EXTI Version: 3.5.0
+   * Component: DMA Version: 1.2
+   * Component: TIM Version: 3.5.0
+   * Component: I2C Version: 2.1
+   * Component: Flash Version: 3.5.0
+   * Component: DMA Version: 3.5.0
+   * Component: Startup Version: 1.0.0
+   * Component: Framework Version: 3.5.1
+
+<h2>Collection of Component include folders:</h2>
+  C:\Users\kxxs\Desktop\小车\STM32_test\Projects\RTE
+  C:\Users\kxxs\Desktop\小车\STM32_test\Projects\RTE\Device\STM32F103RC
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Driver\Include
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include
+  C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0
+  C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include
+  C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc
+  C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\RTE_Driver
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ::CMSIS Driver:I2C:2.3.0 (API)
+      Include file:  CMSIS\Driver\Include\Driver_I2C.h
+
+   * Component: ARM::CMSIS:CORE:5.0.1
+
+   * Component: Keil::Device:StdPeriph Drivers:RCC:3.5.0
+      Source file:   Device\StdPeriph_Driver\src\stm32f10x_rcc.c
+      Include file:  Device\StdPeriph_Driver\inc\stm32f10x_rcc.h
+
+   * Component: Keil::Device:StdPeriph Drivers:I2C:3.5.0
+      Include file:  Device\StdPeriph_Driver\inc\stm32f10x_i2c.h
+      Source file:   Device\StdPeriph_Driver\src\stm32f10x_i2c.c
+
+   * Component: Keil::Device:StdPeriph Drivers:USART:3.5.0
+      Include file:  Device\StdPeriph_Driver\inc\stm32f10x_usart.h
+      Source file:   Device\StdPeriph_Driver\src\stm32f10x_usart.c
+
+   * Component: Keil::Device:GPIO:1.3
+      Source file:   RTE_Driver\GPIO_STM32F10x.c
+      Include file:  RTE_Driver\GPIO_STM32F10x.h
+
+   * Component: Keil::Device:StdPeriph Drivers:GPIO:3.5.0
+      Include file:  Device\StdPeriph_Driver\inc\stm32f10x_gpio.h
+      Source file:   Device\StdPeriph_Driver\src\stm32f10x_gpio.c
+
+   * Component: Keil::Device:StdPeriph Drivers:EXTI:3.5.0
+      Include file:  Device\StdPeriph_Driver\inc\stm32f10x_exti.h
+      Source file:   Device\StdPeriph_Driver\src\stm32f10x_exti.c
+
+   * Component: Keil::Device:DMA:1.2
+      Include file:  RTE_Driver\DMA_STM32F10x.h
+      Source file:   RTE_Driver\DMA_STM32F10x.c
+
+   * Component: Keil::Device:StdPeriph Drivers:TIM:3.5.0
+      Source file:   Device\StdPeriph_Driver\src\stm32f10x_tim.c
+      Include file:  Device\StdPeriph_Driver\inc\stm32f10x_tim.h
+
+   * Component: Keil::CMSIS Driver:I2C:2.1
+      Source file:   RTE_Driver\I2C_STM32F10x.c
+
+   * Component: Keil::Device:StdPeriph Drivers:Flash:3.5.0
+      Include file:  Device\StdPeriph_Driver\inc\stm32f10x_flash.h
+      Source file:   Device\StdPeriph_Driver\src\stm32f10x_flash.c
+
+   * Component: Keil::Device:StdPeriph Drivers:DMA:3.5.0
+      Include file:  Device\StdPeriph_Driver\inc\stm32f10x_dma.h
+      Source file:   Device\StdPeriph_Driver\src\stm32f10x_dma.c
+
+   * Component: Keil::Device:Startup:1.0.0
+      Source file:   Device\Source\system_stm32f10x.c
+      Source file:   Device\Source\ARM\startup_stm32f10x_hd.s
+      Include file:  RTE_Driver\Config\RTE_Device.h
+      Source file:   Device\Source\ARM\STM32F1xx_OPT.s
+
+   * Component: Keil::Device:StdPeriph Drivers:Framework:3.5.1
+      Source file:   Device\StdPeriph_Driver\src\misc.c
+      Source file:   Device\StdPeriph_Driver\templates\stm32f10x_conf.h
+      Include file:  Device\StdPeriph_Driver\templates\stm32f10x_it.h
+      Include file:  Device\StdPeriph_Driver\inc\misc.h
+      Source file:   Device\StdPeriph_Driver\templates\stm32f10x_it.c
+</pre>
+</body>
+</html>
